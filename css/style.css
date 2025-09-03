@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-attachment: fixed;
+}
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menus{
+    display: flex;
+    gap: 30px;
+}
+#hero{
+padding-top: 80px;
+padding-bottom: 250px;
+    background-image: url("../images/hero\ rasmi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-title{
+    font-size: 58px;
+    color: black;
+    font-family: sans-serif;
+}
+.hero-desc{
+    font-size: 20px;
+    color: gray;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.btn{
+width: 185px;
+height: 48px;
+border-radius: 37px;
+background-color: #FFA62B;
+color: white;
+margin-top: 45px;
+}
+.btnn{
+width: 154px;
+    height: 48px;
+    border-radius: 37px;
+    background-color: white;
+    color: #00A0C1;
+    margin-top: 45px;
+    transition: 1s;
+}
+.btnn:hover{
+    background-color:#FFA62B ;
+}
+.parda{
+    display: flex;
+    gap: 150px;
+    padding-left: 70px;
+    padding-bottom: 200px;
+}
+.men{
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+}
+.oyna{
+    padding-top: 10px;
+font-size: 30px;
+padding-bottom: 15px;
+font-family: sans-serif;
+}
+.dilnura{
+    padding-top: 30px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 10px;
+}
+.dionur{
+    background-color: #00A0C1;
+}
+#statistik{
+    margin-top: -120px;
+}
+.crazy{
+    padding-left: 700px;
+    font-size: 40px;
+}
+.fruit{
+    padding-left: 600px;
+    font-size: 14px;
+    padding-bottom: 70px;
+}
+.vafli{
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+
+}
+.pult{
+    font-size: 25px;
+}
+.nos{
+    font-size: 22px;
+}
+.learn{
+    width: 238px;
+    height: 321;
+    box-shadow: 5px 5px 10px black;
+}
+.choynak{
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+    padding-bottom: 100px;
+}
